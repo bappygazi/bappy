@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="scss/main.css">
+    <style>
+        .sidebar {
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            right: 0;
+            height: 675px;
+            width: 300px;
+            border: 10px solid black;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .header {
+            position: relative;
+            min-height: 3.25rem;
+            width: 300px;
+            background-color: red;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="header">
+            Title
+        </div>
+        <div class="background">
+            <div class="reward-counting">
+                <div class="reward-box">
+                    <div class="reward-box-header">
+                        NEXT REWARD IN:
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill">
+                            <div class="progress-bar-text">
+                                160/200
+                            </div>
+                        </div>
+                        <div class="flag-icon"></div>
+                        <div class="coin-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-text">
+                THE RACE IS OVER! WANT TO START A NEW RACE
+            </div>
+            <div class="lets-button">
+                <button class="lets-btn">LETS RACE!</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

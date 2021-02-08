@@ -1,0 +1,127 @@
+.background {
+  background: url(../icons/sr-display-texture-red.default.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: currentcolor;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+
+.background .reward-counting {
+  padding-top: 65px;
+}
+
+.background .reward-counting .reward-box {
+  background: url(../icons/bg-upcoming.default.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 20%;
+}
+
+.background .reward-counting .reward-box .reward-box-header {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background .reward-counting .reward-box .progress-bar {
+  background: url(../icons/bar-bg.default.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 40%;
+  width: 70%;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.background .reward-counting .reward-box .progress-bar .progress-bar-fill {
+  background: url(../icons/bar-fill.default.png);
+  background-size: 140px 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -25px;
+  bottom: -0.5px;
+  height: 100%;
+  width: 100%;
+}
+
+.background .reward-counting .reward-box .progress-bar .progress-bar-fill .progress-bar-text {
+  position: absolute;
+  top: 12px;
+  right: 37px;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background .reward-counting .reward-box .progress-bar .flag-icon {
+  background: url(../icons/flag-ico.default.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 6px;
+  left: -7px;
+  height: 85%;
+}
+
+.background .reward-counting .reward-box .progress-bar .coin-icon {
+  background: url(../icons/flag-ico.default.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  position: relative;
+  top: -40px;
+  right: -6px;
+  height: 85%;
+}
+
+.background .mid-text {
+  padding: 53px 10px;
+  color: #ffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 27px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background .lets-button {
+  padding-top: 40px;
+}
+
+.background .lets-button .lets-btn {
+  cursor: pointer;
+  height: 14%;
+  width: 88%;
+  border: none;
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  background: url(../icons/cta-active.default.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 275px 85px;
+}
+
+.background .lets-button .lets-btn:focus {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
